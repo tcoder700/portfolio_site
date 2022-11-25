@@ -6,6 +6,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/ContactMe";
+import Link from "next/link";
 
 const Home: NextPage =() => {
   return (
@@ -24,22 +25,42 @@ const Home: NextPage =() => {
         </section>
         
     {/*About*/}
+
     <section className="snap-center">
       <About />
     </section>
+
+
     {/*Skills*/}
+
+
     <section id="skills" className="snap-start">
       <Skills />
     </section>
+
+
     {/*Projects*/}
+
+
     <section id="projects" className="snap-start">
       <Projects />
     </section>
+
+
     {/*Contact*/}
+
     <section>
       <Contact />
-
     </section>
+
+    <Link href="#hero">
+    <footer className="sticky bottom-5 w-full cursor-pointer ">
+    <div className="flex flex-col items-center">
+    <img className="hover:grayscale-0 max-h-6" src="https://cdn-icons-png.flaticon.com/128/1946/1946436.png" />
+    </div>
+    </footer>
+    </Link>
+ 
     </div>
   )
 }
