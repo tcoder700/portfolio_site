@@ -38,8 +38,8 @@ export default function About({ }: Props) {
                     I am an Electrical Engineering sophomore at JMI,New Delhi and have keen interest in web development.
                     I get fascinated about how things are working in the web that motivates me
                     to be consistent and learn something new everyday.
-                    Besides Full Stack Web Development and iOS development , i also practice Leetcode to sharpen
-                    my data structures and algorithms' skill.
+                    Besides Full Stack Web Development and iOS development , i also practice Leetcode regularly to sharpen
+                    my skill of data structures and algorithm .
                 </p>
             </div>
         </div>
