@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Contact from "../components/ContactMe";
+import Contact from "../components/Contact";
 import Link from "next/link";
 
 const Home: NextPage =() => {
@@ -17,16 +17,16 @@ const Home: NextPage =() => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-{/*header*/}
+
     <Header />
-        {/*Hero*/}
+        
         <section id="hero" className="snap-center">
         <Hero />
         </section>
         
     {/*About*/}
 
-    <section className="snap-center">
+    <section  id="about" className="snap-center">
       <About />
     </section>
 
@@ -38,18 +38,14 @@ const Home: NextPage =() => {
       <Skills />
     </section>
 
-
     {/*Projects*/}
-
 
     <section id="projects" className="snap-start">
       <Projects />
     </section>
-
-
     {/*Contact*/}
 
-    <section>
+    <section id="contact">
       <Contact />
     </section>
 
