@@ -11,7 +11,7 @@ function Projects({ }: Props) {
                 To be Updated Soon...
             </h3>
             
-            <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>
+            <div className='w-full absolute top-[30%] bg-[#36eeee]/10 left-0 h-[350px] -skew-y-12'></div>
         </div>
     )
 }
