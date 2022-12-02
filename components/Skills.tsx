@@ -21,7 +21,7 @@ export default function Skills({ }: Props) {
                 Skills
             </h3>
             
-            <div className='grid grid-cols-4 gap-5 pt-5'>
+            <div className='grid grid-cols-4 gap-5 pt-5 px-5'>
                 <Skill imageUrl='https://cdn-icons-png.flaticon.com/128/732/732212.png'/>
                 <Skill imageUrl='https://cdn-icons-png.flaticon.com/128/732/732190.png'/>
                 <Skill imageUrl='https://cdn-icons-png.flaticon.com/128/5968/5968292.png'/>

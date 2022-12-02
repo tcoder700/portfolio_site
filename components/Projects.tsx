@@ -1,18 +1,24 @@
 import Link from 'next/link';
 import React from 'react'
+import image1 from '../assets/chatbot_p1.png'
+import image2 from '../assets/MemeBoard_p2.png'
+import image3 from '../assets/Simon_p3.png'
 
+import Project from './Project';
 type Props = {}
 
 function Projects({ }: Props) {
-    const projects = [1, 2, 3, 4, 5];
+    
     return (
-        <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
-            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl px-24'>
-                To be Updated Soon...
-            </h3>
-            
-            <div className='w-full absolute top-[30%] bg-[#36eeee]/10 left-0 h-[350px] -skew-y-12'></div>
-        </div>
+       <div>
+        <h2 className='tracking-[15px] text-2xl text-center text-gray-600 mx-auto mb-24 '>PROJECTS</h2>
+            <div className='md:flex md:flex-row  grid md:gap-5 px-5'>
+ <Project imageUrl={image1} siteLink="https://boisterous-begonia-013aac.netlify.app/" content="A real-time functional chat-app"  techStack='Firebase || ReactJS || TailwindCSS'/>
+ <Project imageUrl={image2} siteLink="https://boisterous-begonia-013aac.netlify.app/" content="Plays different meme sounds"  techStack='Jquery || Javascript || CSS'/>
+ <Project imageUrl={image3} siteLink="https://simon-game-tv.netlify.app/" content="A web based dice game"  techStack='Javascript || Css || HTML'/>
+ </div>
+ </div>
+     
     )
 }
 

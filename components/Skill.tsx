@@ -2,10 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion"
 
 type Props = {
-    directionLeft?: boolean;
     imageUrl: string;
 };
-function Skill({ directionLeft,imageUrl }: Props) {
+function Skill({imageUrl}: Props) {
     return (
 
 
