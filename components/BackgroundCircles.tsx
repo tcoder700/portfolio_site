@@ -14,7 +14,7 @@ export default function BackgroundCircles({ }: Props) {
                 borderRadius: ["20%", "20%", "50%", "80%", "20%"],
             }}
             transition={{
-                duration: 1.5,
+                duration:1.5,
             }}
             className='relative flex justify-center items-center'>
 

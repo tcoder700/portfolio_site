@@ -11,7 +11,7 @@ export default function Contact({ }: Props) {
       </h3>
       <div className='flex flex-col space-y-10'>
         <h4 className='text-2xl font-semibold text-center md:text-4xl mx-10'>
-         <Link href="https://drive.google.com/file/d/1xDbh-mAIhRr_AKvmC0UUa5aNqBkfLYQe/view?usp=share_link" className="cursor-pointer hover:text-cyan-200">Click To Download My Resume</Link>
+         <Link href="https://drive.google.com/file/d/1JfMPTMe5LiO5RdFMhI7I1lLtNSnT8Rc1/view?usp=sharing" className="cursor-pointer hover:text-cyan-200">Click To Download My Resume</Link>
         </h4>
         <div className='pt-5 md:pt-20'>
 
